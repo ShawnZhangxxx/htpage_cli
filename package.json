@@ -1,0 +1,14 @@
+{
+    "name": "htpages",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha test"
+    },
+    "author": "",
+    "license": "MIT",
+    "bin": {
+        "htpage": "index.js"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "winHtoaRoot": "D:\\htoa",
+    "unixHtoaRoot": "\\home\\htoa",
+    "backend": {
+        "appserviceProperties": "OAapp\\OAapp.woa\\Contents\\Resources\\appservice.properties",
+        "manager": "oaapp_manager\\src\\com\\oa8000",
+        "service": "OaInterface_base\\src\\com\\oa8000\\appservice",
+        "server": "OaInterface_base\\src\\com\\oa8000\\server"
+    },
+    "frontend": {
+        "htpages": "Tomcat\\webapps\\OAapp\\htpages",
+        "css": "app\\css\\CN\\BLUE",
+        "module": "app\\module"
+    },
+    "config": {
+        "ConfigXml": "OAapp\\OAapp.woa\\Contents\\Resources\\Config.xml",
+        "SystemConfigXml": "OAapp\\OAapp.woa\\Contents\\Resources\\SystemConfig.xml",
+        "multiLanuageProperties": "OAapp\\OAapp.woa\\Contents\\Resources\\multiLanuage.properties",
+        "jspaccessTxt": "Tomcat\\jspaccess.txt"
+    }
+}
