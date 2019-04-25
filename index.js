@@ -5,7 +5,8 @@ const { createComponent } = require("./lib/createComponent/createComponent");
 const { createList } = require("./lib/createListPage/createListPage");
 const { createQuery } = require("./lib/createQuery/createQuery");
 
-let command = process.argv[2];
+console.log(process.argv)
+let command = process.argv[2];    
 let moduleName = process.argv[3];
 let componentName = process.argv[4];
 
