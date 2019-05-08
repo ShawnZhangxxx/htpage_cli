@@ -11,7 +11,8 @@
         "htpages": "Tomcat\\webapps\\OAapp\\htpages",
         "css": "app\\css\\CN\\BLUE",
         "module": "app\\module",
-        "porcss":"app\\css\\CN\\BLUE\\portal_FLOW\\Dvpt"
+        "porcss":"app\\css\\CN\\BLUE\\portal_FLOW\\Dvpt",
+        "portal":"app\\module\\portal_FLOW"
     },
  
     "config": {
