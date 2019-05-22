@@ -4,6 +4,8 @@ const { initAllModule } = require("./lib/initModule/initModule");
 const { createComponent } = require("./lib/createComponent/createComponent");
 const { createComponent1 } = require("./lib/createComponent1/createComponent1");
 const { createComponent2 } = require("./lib/createComponent2/createComponent2");
+const { createComponent3 } = require("./lib/createComponent3/createComponent3");
+const { createSql } = require("./lib/createSql/createSql");
 const { createList } = require("./lib/createListPage/createListPage");
 const { createList1 } = require("./lib/createListPage1/createListPage1");
 const { createQuery } = require("./lib/createQuery/createQuery");
@@ -53,6 +55,15 @@ switch (command) {
             resPromise = createComponent2(moduleName, componentName);
         }
         break;
+    case "-c3"://页面弹层 分页 纵向滚动条 绩效小版
+        if (typeof moduleName !== "string") {
+            console.log("请输入正确的模块名称");
+        } else if (typeof componentName !== "string") {
+            console.log("请输入正确的弹出层名称");
+        } else {
+            resPromise = createComponent3(moduleName, componentName);
+        }
+        break;    
     case "--query":
     case "-q":
         if (typeof moduleName !== "string") {
