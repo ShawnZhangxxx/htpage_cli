@@ -46,7 +46,7 @@ switch (command) {
             resPromise = createComponent1(moduleName, componentName);
         }
         break;
-    case "-c2"://页面弹层 分页 横纵纵向滚动条
+    case "-c2"://页面弹层 分页 横纵纵向滚动条 纵向滚动连头一起动
         if (typeof moduleName !== "string") {
             console.log("请输入正确的模块名称");
         } else if (typeof componentName !== "string") {
