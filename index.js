@@ -3,7 +3,6 @@
 const { initAllModule } = require("./lib/initModule/initModule");
 const { createComponent } = require("./lib/createComponent/createComponent");
 const { createComponent1 } = require("./lib/createComponent1/createComponent1");
-const { createComponent2 } = require("./lib/createComponent2/createComponent2");
 const { createComponent3 } = require("./lib/createComponent3/createComponent3");
 const { createSql } = require("./lib/createSql/createSql");
 const { createList } = require("./lib/createListPage/createListPage");
